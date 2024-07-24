@@ -445,7 +445,7 @@
 
   .swiper-button-prev {
     left: 2rem;
-    transform: rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
   }
 
   .item {
@@ -562,7 +562,7 @@
 
   .swiper-button-prev {
     left: 2rem;
-    transform: rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
   }
 
   .swiper-slide {
