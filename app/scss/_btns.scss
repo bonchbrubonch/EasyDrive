@@ -14,11 +14,18 @@
   text-align: center;
   max-width: 24rem;
   width: 100%;
-
+transition: linear .2s;
   img {
     width: 2.4rem;
     height: 2.4rem;
     object-fit: contain;
+    transition: linear .2s;
+  }
+  &:hover{
+    background: rgb(214, 94, 25);
+    img{
+      transform: translateX(.5rem);
+    }
   }
 }
 
